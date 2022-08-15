@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+	
+        h2, h3 {
+            text-align: center;
+            padding: 30px;    
+        }
+
+        #accordionExample{
+            margin: auto;
+            width: 700px;
+            text-align: center;
+        }
+
+
+        #outer{
+           margin: auto;
+           background-color: white;
+           width: 900px;
+           height: 500px;
+
+        }
+        
+        #board{
+            background-color: #fcc15a;
+            margin: auto;
+            width: 900px;
+            height: 300px;
+            text-align: center;
+        }
+
+        tbody tr:hover{
+            background-color: white;
+            cursor: pointer;
+        }
+
+        #search{
+            float: right;
+            margin-top: 70px;
+            margin-bottom: 30px;
+        }
+        
+        #btn{
+            float: right;
+            margin-bottom: 100px;
+        }
+
+        .pagination {
+            margin-top: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        .pagination > li > a {
+            color: #ffb330;
+            border: 1px solid #ffb330;
+        }
+        .pagination > li > a:hover {
+            color: white;
+            border: 1px solid #ffb330;
+            background-color: #ffb330;
+        }
+
+  
